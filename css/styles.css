@@ -203,11 +203,15 @@ footer,
 
 .page-nav {
   display: flex;
-  flex-direction: row;
-  padding: 24px 0;
+
   gap: 40px;
 }
 
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .address {
   display: flex;
   flex-direction: row;
