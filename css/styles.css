@@ -197,16 +197,14 @@ footer,
 .nav-menu {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-}
-
-.nav-menu {
-  padding: 24px 0;
 }
 
 .page-nav {
   display: flex;
   flex-direction: row;
+  padding: 24px 0;
   gap: 40px;
 }
 
