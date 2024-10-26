@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  padding-inline: unset;
 }
 
 body {
@@ -25,6 +24,8 @@ p {
 }
 
 ul {
+  margin: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -43,10 +44,6 @@ img {
 
 .link {
   text-decoration: none;
-}
-
-.nav-link {
-  padding: 24px 0;
 }
 
 .page-nav .link {
@@ -196,11 +193,15 @@ footer,
   background-color: #ffffff;
 }
 
-.header-container {
+.header-container,
+.nav-menu {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-menu {
+  padding: 24px 0;
 }
 
 .page-nav {
